@@ -1,6 +1,6 @@
 <?php
 
-echo "Hello Abhijet Good Morning";
+echo "Hello sudha Good Morning";
 
 echo "<br/>";
 
@@ -10,5 +10,7 @@ $b = 20;
 $c = $a + $b;
 
 echo "Total Sum of A+B = ". $c; 	
+
+echo "hello shudhansu";
 
 ?>
