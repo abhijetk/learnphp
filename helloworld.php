@@ -27,10 +27,6 @@ if(isset($_POST['first_name'])){
       <input type="text" class="form-control" id="first_name" placeholder="Enter First Name" name="first_name" required value="<?php echo $_POST['first_name'] ?? '' ?>" >
     </div>
 	
-	<div class="form-group">
-      <label for="email">Last Name:</label>
-      <input type="text" class="form-control" id="last_name" placeholder="Enter Last Name" name="last_name">
-    </div>
 
     <div class="form-group">
       <label for="email">Email:</label>
