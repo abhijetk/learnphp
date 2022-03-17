@@ -52,12 +52,7 @@ if(isset($_POST['first_name'])){
 			
 	  </select>
     </div>
-	
-	<div class="form-group">
-      <label for="email">Gender:</label>
-      <input type="radio" class="form-control"name="gender" checked>Male
-	   <input type="radio" class="form-control"name="gender">FeMale
-    </div>
+
 	
 	<div class="form-group">
       <label>Address:</label>
