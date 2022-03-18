@@ -28,11 +28,11 @@ if(isset($_POST['first_name'])){
     </div>
 	
 
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-    </div>
 	
+    <div class="form-group">
+      <label for="email">last Name:</label>
+      <input type="text" class="form-control" id="last_name" placeholder="Enter First Name" name="last_name" required value="<?php echo $_POST['last_name'] ?? '' ?>" >
+    </div>
 	<div class="form-group">
       <label for="email">Phone:</label>
       <input type="tel" class="form-control" id="phone" placeholder="ex:99999999990" name="phone">
